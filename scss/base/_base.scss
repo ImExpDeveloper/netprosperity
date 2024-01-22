@@ -1,0 +1,35 @@
+@font-face {
+  font-weight: 400; /* Соответствует значению regular */
+  font-family: Inter;
+  src: url('src/fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-weight: 500; /* Соответствует значению medium */
+  font-family: Inter;
+  src: url('src/fonts/Inter-Medium.ttf');
+}
+
+@font-face {
+  font-weight: 600; /* Соответствует значению semi-bold */
+  font-family: Inter;
+  src: url('src/fonts/Inter-SemiBold.ttf');
+}
+
+@font-face {
+  font-weight: 700; /* Соответствует значению bold */
+  font-family: Inter;
+  src: url('src/fonts/Inter-Bold.ttf');
+}
+
+@font-face {
+  font-weight: 400; /* Соответствует значению regular */
+  font-family: Lato;
+  src: url('src/fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-weight: 700; /* Соответствует значению bold */
+  font-family: Lato;
+  src: url('src/fonts/Lato-Bold.ttf');
+}

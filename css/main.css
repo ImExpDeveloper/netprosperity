@@ -1,2 +1,83 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtYWluLmNzcyJ9 */
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-weight: 400; /* Соответствует значению regular */
+  font-family: Inter;
+  src: url("src/fonts/Inter-Regular.ttf");
+}
+@font-face {
+  font-weight: 500; /* Соответствует значению medium */
+  font-family: Inter;
+  src: url("src/fonts/Inter-Medium.ttf");
+}
+@font-face {
+  font-weight: 600; /* Соответствует значению semi-bold */
+  font-family: Inter;
+  src: url("src/fonts/Inter-SemiBold.ttf");
+}
+@font-face {
+  font-weight: 700; /* Соответствует значению bold */
+  font-family: Inter;
+  src: url("src/fonts/Inter-Bold.ttf");
+}
+@font-face {
+  font-weight: 400; /* Соответствует значению regular */
+  font-family: Lato;
+  src: url("src/fonts/Lato-Regular.ttf");
+}
+@font-face {
+  font-weight: 700; /* Соответствует значению bold */
+  font-family: Lato;
+  src: url("src/fonts/Lato-Bold.ttf");
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4uY3NzIiwiLi4vc2Nzcy9iYXNlL19yZXNldC5zY3NzIiwiLi4vc2Nzcy9iYXNlL19iYXNlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZ0JBQWdCO0FDQWhCOzs7Ozs7Ozs7Ozs7O0VBYUUsU0FBQTtFQUNBLFVBQUE7RUFDQSxTQUFBO0VBQ0EsZUFBQTtFQUNBLGFBQUE7RUFDQSx3QkFBQTtBREVGOztBQ0FBLGdEQUFBO0FBQ0E7O0VBRUUsY0FBQTtBREdGOztBQ0RBO0VBQ0UsY0FBQTtBRElGOztBQ0ZBO0VBQ0UsZ0JBQUE7QURLRjs7QUNIQTtFQUNFLFlBQUE7QURNRjs7QUNKQTs7RUFFRSxXQUFBO0VBQ0EsYUFBQTtBRE9GOztBQ0xBO0VBQ0UseUJBQUE7RUFDQSxpQkFBQTtBRFFGOztBRWpEQTtFQUNFLGdCQUFBLEVBQUEsbUNBQUE7RUFDQSxrQkFBQTtFQUNBLHVDQUFBO0FGb0RGO0FFakRBO0VBQ0UsZ0JBQUEsRUFBQSxrQ0FBQTtFQUNBLGtCQUFBO0VBQ0Esc0NBQUE7QUZtREY7QUVoREE7RUFDRSxnQkFBQSxFQUFBLHFDQUFBO0VBQ0Esa0JBQUE7RUFDQSx3Q0FBQTtBRmtERjtBRS9DQTtFQUNFLGdCQUFBLEVBQUEsZ0NBQUE7RUFDQSxrQkFBQTtFQUNBLG9DQUFBO0FGaURGO0FFOUNBO0VBQ0UsZ0JBQUEsRUFBQSxtQ0FBQTtFQUNBLGlCQUFBO0VBQ0Esc0NBQUE7QUZnREY7QUU3Q0E7RUFDRSxnQkFBQSxFQUFBLGdDQUFBO0VBQ0EsaUJBQUE7RUFDQSxtQ0FBQTtBRitDRiIsImZpbGUiOiJtYWluLmNzcyJ9 */
