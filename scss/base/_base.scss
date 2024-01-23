@@ -36,4 +36,16 @@
 
 body{
   font-family: $font-main;
+  background-color: $white;
+  color: $menu-text;
+  font-size: 16px;
+}
+
+a {
+  color: $menu-untouched;
+  transition: all 0.2s ease-in;
+
+  &:hover{
+    color: $menu-touched;
+  }
 }
