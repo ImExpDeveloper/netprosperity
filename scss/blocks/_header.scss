@@ -1,4 +1,60 @@
 .header{
   min-height: 100px;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-left: 249px;
+  margin-top: 31px;
+  margin-right: 20px;
 }
+
+.header__top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav-btn{
+  display: flex;
+}
+
+.header__nav-btn button{
+  margin-right: 30px;
+  border: none;
+  background-color: $white;
+}
+
+.header__nav-btn form {
+  margin-right: 30px;
+}
+
+.header__nav_form input{
+  border: none;
+  background-color: #F5F7FA;
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: Inter,sans-serif;
+  color: $menu-text;
+  padding: 16px 33px 16px 50px;
+  margin-left: -15px;
+
+  min-width: 255px;
+  min-height: 50px;
+}
+
+.header__nav_form img{
+  position: absolute;
+  margin-top: 13px;
+}
+
+
+p {
+  color: $grey;
+  font-family: Inter,sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+
