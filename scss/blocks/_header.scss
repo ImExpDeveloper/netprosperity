@@ -6,13 +6,11 @@
   margin-left: 232px;
   width: 100%;
   position: absolute;
-
-
-  box-shadow: 0px 2px 8px 0px rgba(34, 60, 80, 0.2);
+  border: none;
+  box-shadow: 0px 5px 8px -5px rgba(34, 60, 80, 0.2);
 }
 
 .header__top-row {
-  //padding-left: 249px;
   margin-top: 31px;
   display: flex;
   justify-content: space-between;
@@ -21,6 +19,7 @@
 
 .header__nav-btn{
   display: flex;
+  margin-right: 250px;
 }
 
 .header__nav-btn button{
@@ -54,11 +53,11 @@
 }
 
 
-p {
+.header__top-row p {
   color: $grey;
   font-family: Inter,sans-serif;
   font-size: 24px;
   font-weight: 600;
-  margin-right: 350px;
+  padding-left: 50px;
 }
 
