@@ -1,16 +1,19 @@
 .header{
   min-height: 100px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 232px;
+  width: 100%;
+  position: absolute;
 
-  margin-left: 249px;
-  margin-top: 31px;
-  margin-right: 20px;
+
+  box-shadow: 0px 2px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
 .header__top-row {
+  //padding-left: 249px;
+  margin-top: 31px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +57,8 @@
 p {
   color: $grey;
   font-family: Inter,sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
+  margin-right: 350px;
 }
 
