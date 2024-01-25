@@ -1,5 +1,5 @@
 #menu {
-  box-shadow: 0px 0px 5px 0px rgba(34, 60, 80, 0.2);;
+  box-shadow: 0 0 5px 0 rgba(34, 60, 80, 0.2);;
   position: absolute;
   height: 100vh;
 }
@@ -11,11 +11,31 @@
 
   margin-top: 40px;
   margin-left: 40px;
-  margin-right: 40px;
-
-
 }
 
-#menu img{
+#menu menu__logo img{
   width: 150px;
 }
+
+#menu .menu__nav{
+  padding-top: 65px;
+  padding-right: 42px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 3;
+  text-decoration: none;
+}
+
+#menu .menu__list{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+li img{
+  width: 23px;
+  height: 23px;
+  padding-right: 10px;
+}
+
