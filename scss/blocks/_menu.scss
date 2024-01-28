@@ -9,13 +9,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   margin-top: 35px;
-  //margin-left: 40px;
+  background-color: $white;
 }
 
-#menu menu__logo img{
+#menu__logo {
   width: 150px;
+  padding-left: 40px;
 }
 
 #menu .menu__nav{
@@ -32,7 +32,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  padding-left: 38px;
+  padding-left: 40px;
 }
 
 li img{
